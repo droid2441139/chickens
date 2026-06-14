@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chickens</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chickens</title>
+  <link rel="stylesheet" href="app.css" />
 </head>
+
 <body>
-    <h1>Chickens!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Iusto ipsam vitae laboriosam porro, deleniti quod atque 
-        eius! Facere praesentium, sed, harum ducimus nihil pariatur 
-        dolorum voluptates id rerum magni voluptatem!</p>
+  <div class="container">
+    <svg viewBox="0 0 1200 300">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="65%">
+          CHICKENS!
+        </text>
+      </symbol>
+
+      <use class="text" href="#s-text"></use>
+      <use class="text" href="#s-text"></use>
+      <use class="text" href="#s-text"></use>
+      <use class="text" href="#s-text"></use>
+      <use class="text" href="#s-text"></use>
+    </svg>
+  </div>
 </body>
 </html>
